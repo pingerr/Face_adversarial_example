@@ -21,7 +21,7 @@
 #### trick 2  给loss指定bias，让梯度朝着余弦值第二大的方向更新
 * 原始loss的梯度方向是替代模型变化最快的方向，最快不代表路径是最短，计算干净样本 embeding和本地 embeddings 池的余弦值，找到非真实 label 的最大余弦值对应的embedding，让loss不仅是减小对抗样本与干净样本的余弦值，同时增大与biased embedding的余弦值
 
-## 3.代码及模型
+## 代码及模型
 ### 1） 代码说明
 * embeds_pkl ：存放本地持久化embeddings池的文件夹
 * images : 存放干净样本和对抗样本的文件夹
