@@ -1,6 +1,10 @@
-# readme
+# （阿里云天池）安全AI挑战者计划第一期-人脸识别对抗 7th 方案
 
-### 思路
+竞赛主页：https://tianchi.aliyun.com/competition/entrance/231745/introduction
+
+参赛团队：Negentropy
+
+### 解题思路
 
 > 基础攻击方法： 带动量的投影梯度下降(m-pgd)
 
